@@ -1,0 +1,11 @@
+2025-03-18 10:35:23,432 - INFO - Settings loaded from /home/thais/PycharmProjects/checkBS_v_1_1/configs/config.yaml
+2025-03-18 10:35:23,433 - INFO - Settings loaded
+2025-03-18 10:35:23,433 - INFO - Starting GUI application
+2025-03-18 10:35:23,460 - INFO - GUI initialized successfully
+2025-03-18 10:35:27,049 - INFO - Input Path: /home/thais/PycharmProjects/checkBS_v_1_1/checkBS_v_1_1/docs/fix_it.csv
+2025-03-18 10:35:27,049 - INFO - Running update...
+2025-03-18 10:35:27,049 - INFO - Updating labels: /home/thais/PycharmProjects/bees-microservices
+2025-03-18 10:35:27,049 - INFO - Starting label update process. Repository: /home/thais/PycharmProjects/bees-microservices, Input file: /home/thais/PycharmProjects/checkBS_v_1_1/checkBS_v_1_1/docs/fix_it.csv
+2025-03-18 10:35:27,049 - ERROR - Error in execute_fix: [Errno 2] No such file or directory: '/home/thais/PycharmProjects/checkBS_v_1_1/checkBS_v_1_1/docs/fix_it.csv'
+2025-03-18 10:35:27,049 - ERROR - Error updating labels: [Errno 2] No such file or directory: '/home/thais/PycharmProjects/checkBS_v_1_1/checkBS_v_1_1/docs/fix_it.csv'
+2025-03-18 10:35:27,049 - ERROR - Exception occurred: [Errno 2] No such file or directory: '/home/thais/PycharmProjects/checkBS_v_1_1/checkBS_v_1_1/docs/fix_it.csv'

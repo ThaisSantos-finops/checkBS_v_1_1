@@ -1,0 +1,332 @@
+2025-03-18 10:37:32,763 - INFO - Settings loaded from /home/thais/PycharmProjects/checkBS_v_1_1/configs/config.yaml
+2025-03-18 10:37:32,763 - INFO - Settings loaded
+2025-03-18 10:37:32,763 - INFO - Starting GUI application
+2025-03-18 10:37:32,789 - INFO - GUI initialized successfully
+2025-03-18 10:37:35,662 - INFO - Input Path: /home/thais/PycharmProjects/checkBS_v_1_1/docs/fix_it.csv
+2025-03-18 10:37:35,663 - INFO - Running update...
+2025-03-18 10:37:35,663 - INFO - Updating labels: /home/thais/PycharmProjects/bees-microservices
+2025-03-18 10:37:35,663 - INFO - Starting label update process. Repository: /home/thais/PycharmProjects/bees-microservices, Input file: /home/thais/PycharmProjects/checkBS_v_1_1/docs/fix_it.csv
+2025-03-18 10:37:35,663 - INFO - Loaded 3 entries from CSV file
+2025-03-18 10:37:35,663 - INFO - Processing files: ['/charts/agent-survey-service/templates/deployment.yaml']
+2025-03-18 10:37:35,663 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/agent-survey-service/templates/deployment.yaml
+2025-03-18 10:37:35,664 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/agent-survey-service/templates/deployment.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 10:37:35,664 - INFO - Processing deployment: /home/thais/PycharmProjects/bees-microservices/charts/agent-survey-service/templates/deployment.yaml
+2025-03-18 10:37:35,664 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/agent-survey-service/templates/deployment.yaml
+2025-03-18 10:37:35,664 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/agent-survey-service/templates/deployment.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 10:37:35,667 - INFO - Successfully updated deployment file: /home/thais/PycharmProjects/bees-microservices/charts/agent-survey-service/templates/deployment.yaml
+2025-03-18 10:37:35,667 - INFO - Found 2 metadata sections and updated 2 labels sections
+2025-03-18 10:37:35,667 - INFO - Updating values file: /home/thais/PycharmProjects/bees-microservices/charts/agent-survey-service/values.yaml
+2025-03-18 10:37:35,684 - INFO - Successfully updated values file: /home/thais/PycharmProjects/bees-microservices/charts/agent-survey-service/values.yaml
+2025-03-18 10:37:35,684 - INFO - Running helm template for verification in /home/thais/PycharmProjects/bees-microservices/charts/agent-survey-service
+2025-03-18 10:37:35,793 - ERROR - Error running helm template in /home/thais/PycharmProjects/bees-microservices/charts/agent-survey-service: Command '['helm', 'template', '/home/thais/PycharmProjects/bees-microservices/charts/agent-survey-service']' returned non-zero exit status 1.
+2025-03-18 10:37:35,793 - INFO - Processing files: ['/charts/agent-call-service-consumer/templates/deployment.yaml']
+2025-03-18 10:37:35,793 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/agent-call-service-consumer/templates/deployment.yaml
+2025-03-18 10:37:35,793 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/agent-call-service-consumer/templates/deployment.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 10:37:35,793 - INFO - Processing deployment: /home/thais/PycharmProjects/bees-microservices/charts/agent-call-service-consumer/templates/deployment.yaml
+2025-03-18 10:37:35,793 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/agent-call-service-consumer/templates/deployment.yaml
+2025-03-18 10:37:35,794 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/agent-call-service-consumer/templates/deployment.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 10:37:35,795 - INFO - Successfully updated deployment file: /home/thais/PycharmProjects/bees-microservices/charts/agent-call-service-consumer/templates/deployment.yaml
+2025-03-18 10:37:35,795 - INFO - Found 2 metadata sections and updated 2 labels sections
+2025-03-18 10:37:35,795 - INFO - Updating values file: /home/thais/PycharmProjects/bees-microservices/charts/agent-call-service-consumer/values.yaml
+2025-03-18 10:37:35,802 - INFO - Successfully updated values file: /home/thais/PycharmProjects/bees-microservices/charts/agent-call-service-consumer/values.yaml
+2025-03-18 10:37:35,802 - INFO - Running helm template for verification in /home/thais/PycharmProjects/bees-microservices/charts/agent-call-service-consumer
+2025-03-18 10:37:35,901 - ERROR - Error running helm template in /home/thais/PycharmProjects/bees-microservices/charts/agent-call-service-consumer: Command '['helm', 'template', '/home/thais/PycharmProjects/bees-microservices/charts/agent-call-service-consumer']' returned non-zero exit status 1.
+2025-03-18 10:37:35,901 - INFO - Processing files: ['/charts/smart-call-queues-service/templates/deployment.yaml']
+2025-03-18 10:37:35,901 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/smart-call-queues-service/templates/deployment.yaml
+2025-03-18 10:37:35,902 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/smart-call-queues-service/templates/deployment.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 10:37:35,902 - INFO - Processing deployment: /home/thais/PycharmProjects/bees-microservices/charts/smart-call-queues-service/templates/deployment.yaml
+2025-03-18 10:37:35,902 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/smart-call-queues-service/templates/deployment.yaml
+2025-03-18 10:37:35,902 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/smart-call-queues-service/templates/deployment.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 10:37:35,903 - INFO - Successfully updated deployment file: /home/thais/PycharmProjects/bees-microservices/charts/smart-call-queues-service/templates/deployment.yaml
+2025-03-18 10:37:35,903 - INFO - Found 3 metadata sections and updated 3 labels sections
+2025-03-18 10:37:35,903 - INFO - Updating values file: /home/thais/PycharmProjects/bees-microservices/charts/smart-call-queues-service/values.yaml
+2025-03-18 10:37:35,918 - INFO - Successfully updated values file: /home/thais/PycharmProjects/bees-microservices/charts/smart-call-queues-service/values.yaml
+2025-03-18 10:37:35,918 - INFO - Running helm template for verification in /home/thais/PycharmProjects/bees-microservices/charts/smart-call-queues-service
+2025-03-18 10:37:36,023 - ERROR - Error running helm template in /home/thais/PycharmProjects/bees-microservices/charts/smart-call-queues-service: Command '['helm', 'template', '/home/thais/PycharmProjects/bees-microservices/charts/smart-call-queues-service']' returned non-zero exit status 1.
+2025-03-18 10:37:36,023 - INFO - Label update process completed successfully
+2025-03-18 10:37:36,023 - INFO - Labels updated successfully for /home/thais/PycharmProjects/bees-microservices
+2025-03-18 10:37:36,023 - INFO - Files updated successfully!
+2025-03-18 11:29:28,110 - INFO - Input Path: /home/thais/PycharmProjects/checkBS_v_1_1/docs/fix_it.csv
+2025-03-18 11:29:28,111 - INFO - Running update...
+2025-03-18 11:29:28,111 - INFO - Updating labels: /home/thais/PycharmProjects/bees-microservices
+2025-03-18 11:29:28,111 - INFO - Starting label update process. Repository: /home/thais/PycharmProjects/bees-microservices, Input file: /home/thais/PycharmProjects/checkBS_v_1_1/docs/fix_it.csv
+2025-03-18 11:29:28,111 - INFO - Loaded 1 entries from CSV file
+2025-03-18 11:29:28,111 - INFO - Processing files: ['/charts/rewardshistory-service/templates/deployment.yaml']
+2025-03-18 11:29:28,112 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/rewardshistory-service/templates/deployment.yaml
+2025-03-18 11:29:28,119 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/rewardshistory-service/templates/deployment.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 11:29:28,119 - INFO - Processing deployment: /home/thais/PycharmProjects/bees-microservices/charts/rewardshistory-service/templates/deployment.yaml
+2025-03-18 11:29:28,119 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/rewardshistory-service/templates/deployment.yaml
+2025-03-18 11:29:28,119 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/rewardshistory-service/templates/deployment.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 11:29:28,121 - INFO - Successfully updated deployment file: /home/thais/PycharmProjects/bees-microservices/charts/rewardshistory-service/templates/deployment.yaml
+2025-03-18 11:29:28,121 - INFO - Found 4 metadata sections and updated 4 labels sections
+2025-03-18 11:29:28,121 - INFO - Updating values file: /home/thais/PycharmProjects/bees-microservices/charts/rewardshistory-service/values.yaml
+2025-03-18 11:29:28,130 - INFO - Successfully updated values file: /home/thais/PycharmProjects/bees-microservices/charts/rewardshistory-service/values.yaml
+2025-03-18 11:29:28,130 - INFO - Running helm template for verification in /home/thais/PycharmProjects/bees-microservices/charts/rewardshistory-service
+2025-03-18 11:29:28,360 - INFO - Helm template completed successfully in /home/thais/PycharmProjects/bees-microservices/charts/rewardshistory-service
+2025-03-18 11:29:28,360 - INFO - Label update process completed successfully
+2025-03-18 11:29:28,360 - INFO - Labels updated successfully for /home/thais/PycharmProjects/bees-microservices
+2025-03-18 11:29:28,360 - INFO - Files updated successfully!
+2025-03-18 15:39:45,160 - INFO - Input Path: /home/thais/PycharmProjects/checkBS_v_1_1/docs/fix_it.csv
+2025-03-18 15:39:45,160 - INFO - Running update...
+2025-03-18 15:39:45,161 - INFO - Updating labels: /home/thais/PycharmProjects/bees-microservices
+2025-03-18 15:39:45,161 - INFO - Starting label update process. Repository: /home/thais/PycharmProjects/bees-microservices, Input file: /home/thais/PycharmProjects/checkBS_v_1_1/docs/fix_it.csv
+2025-03-18 15:39:45,161 - INFO - Loaded 23 entries from CSV file
+2025-03-18 15:39:45,161 - INFO - Processing files: ['/charts/rewardshistory-service/templates/deployment.yaml']
+2025-03-18 15:39:45,161 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/rewardshistory-service/templates/deployment.yaml
+2025-03-18 15:39:45,162 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/rewardshistory-service/templates/deployment.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 15:39:45,162 - INFO - Processing deployment: /home/thais/PycharmProjects/bees-microservices/charts/rewardshistory-service/templates/deployment.yaml
+2025-03-18 15:39:45,162 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/rewardshistory-service/templates/deployment.yaml
+2025-03-18 15:39:45,162 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/rewardshistory-service/templates/deployment.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 15:39:45,163 - INFO - Successfully updated deployment file: /home/thais/PycharmProjects/bees-microservices/charts/rewardshistory-service/templates/deployment.yaml
+2025-03-18 15:39:45,163 - INFO - Found 4 metadata sections and updated 4 labels sections
+2025-03-18 15:39:45,163 - INFO - Updating values file: /home/thais/PycharmProjects/bees-microservices/charts/rewardshistory-service/values.yaml
+2025-03-18 15:39:45,169 - INFO - Successfully updated values file: /home/thais/PycharmProjects/bees-microservices/charts/rewardshistory-service/values.yaml
+2025-03-18 15:39:45,169 - INFO - Running helm template for verification in /home/thais/PycharmProjects/bees-microservices/charts/rewardshistory-service
+2025-03-18 15:39:45,756 - INFO - Helm template completed successfully in /home/thais/PycharmProjects/bees-microservices/charts/rewardshistory-service
+2025-03-18 15:39:45,756 - INFO - Processing files: ['/charts/agent-call-service-consumer/templates/deployment.yaml']
+2025-03-18 15:39:45,756 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/agent-call-service-consumer/templates/deployment.yaml
+2025-03-18 15:39:45,756 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/agent-call-service-consumer/templates/deployment.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 15:39:45,756 - INFO - Processing deployment: /home/thais/PycharmProjects/bees-microservices/charts/agent-call-service-consumer/templates/deployment.yaml
+2025-03-18 15:39:45,756 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/agent-call-service-consumer/templates/deployment.yaml
+2025-03-18 15:39:45,756 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/agent-call-service-consumer/templates/deployment.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 15:39:45,757 - INFO - Successfully updated deployment file: /home/thais/PycharmProjects/bees-microservices/charts/agent-call-service-consumer/templates/deployment.yaml
+2025-03-18 15:39:45,757 - INFO - Found 2 metadata sections and updated 2 labels sections
+2025-03-18 15:39:45,757 - INFO - Updating values file: /home/thais/PycharmProjects/bees-microservices/charts/agent-call-service-consumer/values.yaml
+2025-03-18 15:39:45,769 - INFO - Successfully updated values file: /home/thais/PycharmProjects/bees-microservices/charts/agent-call-service-consumer/values.yaml
+2025-03-18 15:39:45,769 - INFO - Running helm template for verification in /home/thais/PycharmProjects/bees-microservices/charts/agent-call-service-consumer
+2025-03-18 15:39:45,967 - ERROR - Error running helm template in /home/thais/PycharmProjects/bees-microservices/charts/agent-call-service-consumer: Command '['helm', 'template', '/home/thais/PycharmProjects/bees-microservices/charts/agent-call-service-consumer']' returned non-zero exit status 1.
+2025-03-18 15:39:45,967 - INFO - Processing files: ['/charts/smart-call-queues-service/templates/deployment.yaml']
+2025-03-18 15:39:45,967 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/smart-call-queues-service/templates/deployment.yaml
+2025-03-18 15:39:45,968 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/smart-call-queues-service/templates/deployment.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 15:39:45,968 - INFO - Processing deployment: /home/thais/PycharmProjects/bees-microservices/charts/smart-call-queues-service/templates/deployment.yaml
+2025-03-18 15:39:45,968 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/smart-call-queues-service/templates/deployment.yaml
+2025-03-18 15:39:45,968 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/smart-call-queues-service/templates/deployment.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 15:39:45,970 - INFO - Successfully updated deployment file: /home/thais/PycharmProjects/bees-microservices/charts/smart-call-queues-service/templates/deployment.yaml
+2025-03-18 15:39:45,970 - INFO - Found 3 metadata sections and updated 3 labels sections
+2025-03-18 15:39:45,970 - INFO - Updating values file: /home/thais/PycharmProjects/bees-microservices/charts/smart-call-queues-service/values.yaml
+2025-03-18 15:39:45,989 - INFO - Successfully updated values file: /home/thais/PycharmProjects/bees-microservices/charts/smart-call-queues-service/values.yaml
+2025-03-18 15:39:45,989 - INFO - Running helm template for verification in /home/thais/PycharmProjects/bees-microservices/charts/smart-call-queues-service
+2025-03-18 15:39:46,178 - INFO - Helm template completed successfully in /home/thais/PycharmProjects/bees-microservices/charts/smart-call-queues-service
+2025-03-18 15:39:46,179 - INFO - Processing files: ['/charts/grow-admin-config-service/templates/deployment.yaml']
+2025-03-18 15:39:46,179 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/grow-admin-config-service/templates/deployment.yaml
+2025-03-18 15:39:46,179 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/grow-admin-config-service/templates/deployment.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 15:39:46,179 - INFO - Processing deployment: /home/thais/PycharmProjects/bees-microservices/charts/grow-admin-config-service/templates/deployment.yaml
+2025-03-18 15:39:46,179 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/grow-admin-config-service/templates/deployment.yaml
+2025-03-18 15:39:46,180 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/grow-admin-config-service/templates/deployment.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 15:39:46,181 - INFO - Successfully updated deployment file: /home/thais/PycharmProjects/bees-microservices/charts/grow-admin-config-service/templates/deployment.yaml
+2025-03-18 15:39:46,181 - INFO - Found 2 metadata sections and updated 2 labels sections
+2025-03-18 15:39:46,181 - INFO - Updating values file: /home/thais/PycharmProjects/bees-microservices/charts/grow-admin-config-service/values.yaml
+2025-03-18 15:39:46,194 - INFO - Successfully updated values file: /home/thais/PycharmProjects/bees-microservices/charts/grow-admin-config-service/values.yaml
+2025-03-18 15:39:46,194 - INFO - Running helm template for verification in /home/thais/PycharmProjects/bees-microservices/charts/grow-admin-config-service
+2025-03-18 15:39:46,358 - ERROR - Error running helm template in /home/thais/PycharmProjects/bees-microservices/charts/grow-admin-config-service: Command '['helm', 'template', '/home/thais/PycharmProjects/bees-microservices/charts/grow-admin-config-service']' returned non-zero exit status 1.
+2025-03-18 15:39:46,358 - INFO - Processing files: ['/charts/tlp-item-service/templates/deployment.yaml']
+2025-03-18 15:39:46,358 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/tlp-item-service/templates/deployment.yaml
+2025-03-18 15:39:46,358 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/tlp-item-service/templates/deployment.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 15:39:46,359 - INFO - Processing deployment: /home/thais/PycharmProjects/bees-microservices/charts/tlp-item-service/templates/deployment.yaml
+2025-03-18 15:39:46,359 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/tlp-item-service/templates/deployment.yaml
+2025-03-18 15:39:46,359 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/tlp-item-service/templates/deployment.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 15:39:46,360 - INFO - Successfully updated deployment file: /home/thais/PycharmProjects/bees-microservices/charts/tlp-item-service/templates/deployment.yaml
+2025-03-18 15:39:46,360 - INFO - Found 3 metadata sections and updated 3 labels sections
+2025-03-18 15:39:46,360 - INFO - Updating values file: /home/thais/PycharmProjects/bees-microservices/charts/tlp-item-service/values.yaml
+2025-03-18 15:39:46,371 - INFO - Successfully updated values file: /home/thais/PycharmProjects/bees-microservices/charts/tlp-item-service/values.yaml
+2025-03-18 15:39:46,371 - INFO - Running helm template for verification in /home/thais/PycharmProjects/bees-microservices/charts/tlp-item-service
+2025-03-18 15:39:46,555 - ERROR - Error running helm template in /home/thais/PycharmProjects/bees-microservices/charts/tlp-item-service: Command '['helm', 'template', '/home/thais/PycharmProjects/bees-microservices/charts/tlp-item-service']' returned non-zero exit status 1.
+2025-03-18 15:39:46,556 - INFO - Processing files: ['/charts/tlp-call-list-service/templates/deployment.yaml']
+2025-03-18 15:39:46,556 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/tlp-call-list-service/templates/deployment.yaml
+2025-03-18 15:39:46,556 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/tlp-call-list-service/templates/deployment.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 15:39:46,556 - INFO - Processing deployment: /home/thais/PycharmProjects/bees-microservices/charts/tlp-call-list-service/templates/deployment.yaml
+2025-03-18 15:39:46,556 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/tlp-call-list-service/templates/deployment.yaml
+2025-03-18 15:39:46,556 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/tlp-call-list-service/templates/deployment.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 15:39:46,557 - INFO - Successfully updated deployment file: /home/thais/PycharmProjects/bees-microservices/charts/tlp-call-list-service/templates/deployment.yaml
+2025-03-18 15:39:46,557 - INFO - Found 2 metadata sections and updated 2 labels sections
+2025-03-18 15:39:46,557 - INFO - Updating values file: /home/thais/PycharmProjects/bees-microservices/charts/tlp-call-list-service/values.yaml
+2025-03-18 15:39:46,576 - INFO - Successfully updated values file: /home/thais/PycharmProjects/bees-microservices/charts/tlp-call-list-service/values.yaml
+2025-03-18 15:39:46,577 - INFO - Running helm template for verification in /home/thais/PycharmProjects/bees-microservices/charts/tlp-call-list-service
+2025-03-18 15:39:46,758 - ERROR - Error running helm template in /home/thais/PycharmProjects/bees-microservices/charts/tlp-call-list-service: Command '['helm', 'template', '/home/thais/PycharmProjects/bees-microservices/charts/tlp-call-list-service']' returned non-zero exit status 1.
+2025-03-18 15:39:46,758 - INFO - Processing files: ['/charts/grow-digital-service/templates/deployment-api.yaml']
+2025-03-18 15:39:46,758 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/grow-digital-service/templates/deployment-api.yaml
+2025-03-18 15:39:46,759 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/grow-digital-service/templates/deployment-api.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 15:39:46,759 - INFO - Processing deployment: /home/thais/PycharmProjects/bees-microservices/charts/grow-digital-service/templates/deployment-api.yaml
+2025-03-18 15:39:46,759 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/grow-digital-service/templates/deployment-api.yaml
+2025-03-18 15:39:46,759 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/grow-digital-service/templates/deployment-api.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 15:39:46,761 - INFO - Successfully updated deployment file: /home/thais/PycharmProjects/bees-microservices/charts/grow-digital-service/templates/deployment-api.yaml
+2025-03-18 15:39:46,761 - INFO - Found 2 metadata sections and updated 2 labels sections
+2025-03-18 15:39:46,761 - INFO - Updating values file: /home/thais/PycharmProjects/bees-microservices/charts/grow-digital-service/values.yaml
+2025-03-18 15:39:46,777 - INFO - Successfully updated values file: /home/thais/PycharmProjects/bees-microservices/charts/grow-digital-service/values.yaml
+2025-03-18 15:39:46,778 - INFO - Running helm template for verification in /home/thais/PycharmProjects/bees-microservices/charts/grow-digital-service
+2025-03-18 15:39:46,976 - ERROR - Error running helm template in /home/thais/PycharmProjects/bees-microservices/charts/grow-digital-service: Command '['helm', 'template', '/home/thais/PycharmProjects/bees-microservices/charts/grow-digital-service']' returned non-zero exit status 1.
+2025-03-18 15:39:46,976 - INFO - Processing files: ['/charts/oncustomer-b2c-users/templates/deployment.yaml']
+2025-03-18 15:39:46,976 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/oncustomer-b2c-users/templates/deployment.yaml
+2025-03-18 15:39:46,977 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/oncustomer-b2c-users/templates/deployment.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 15:39:46,977 - INFO - Processing deployment: /home/thais/PycharmProjects/bees-microservices/charts/oncustomer-b2c-users/templates/deployment.yaml
+2025-03-18 15:39:46,977 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/oncustomer-b2c-users/templates/deployment.yaml
+2025-03-18 15:39:46,977 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/oncustomer-b2c-users/templates/deployment.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 15:39:46,978 - INFO - Successfully updated deployment file: /home/thais/PycharmProjects/bees-microservices/charts/oncustomer-b2c-users/templates/deployment.yaml
+2025-03-18 15:39:46,978 - INFO - Found 3 metadata sections and updated 3 labels sections
+2025-03-18 15:39:46,978 - INFO - Updating values file: /home/thais/PycharmProjects/bees-microservices/charts/oncustomer-b2c-users/values.yaml
+2025-03-18 15:39:46,992 - INFO - Successfully updated values file: /home/thais/PycharmProjects/bees-microservices/charts/oncustomer-b2c-users/values.yaml
+2025-03-18 15:39:46,993 - INFO - Running helm template for verification in /home/thais/PycharmProjects/bees-microservices/charts/oncustomer-b2c-users
+2025-03-18 15:39:47,201 - ERROR - Error running helm template in /home/thais/PycharmProjects/bees-microservices/charts/oncustomer-b2c-users: Command '['helm', 'template', '/home/thais/PycharmProjects/bees-microservices/charts/oncustomer-b2c-users']' returned non-zero exit status 1.
+2025-03-18 15:39:47,201 - INFO - Processing files: ['/charts/bees-grow-organizations-service-bkp/templates/deployment.yaml']
+2025-03-18 15:39:47,201 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/bees-grow-organizations-service-bkp/templates/deployment.yaml
+2025-03-18 15:39:47,202 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/bees-grow-organizations-service-bkp/templates/deployment.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 15:39:47,202 - INFO - Processing deployment: /home/thais/PycharmProjects/bees-microservices/charts/bees-grow-organizations-service-bkp/templates/deployment.yaml
+2025-03-18 15:39:47,202 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/bees-grow-organizations-service-bkp/templates/deployment.yaml
+2025-03-18 15:39:47,202 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/bees-grow-organizations-service-bkp/templates/deployment.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 15:39:47,203 - INFO - Successfully updated deployment file: /home/thais/PycharmProjects/bees-microservices/charts/bees-grow-organizations-service-bkp/templates/deployment.yaml
+2025-03-18 15:39:47,203 - INFO - Found 0 metadata sections and updated 0 labels sections
+2025-03-18 15:39:47,203 - INFO - Updating values file: /home/thais/PycharmProjects/bees-microservices/charts/bees-grow-organizations-service-bkp/values.yaml
+2025-03-18 15:39:47,252 - INFO - Successfully updated values file: /home/thais/PycharmProjects/bees-microservices/charts/bees-grow-organizations-service-bkp/values.yaml
+2025-03-18 15:39:47,252 - INFO - Running helm template for verification in /home/thais/PycharmProjects/bees-microservices/charts/bees-grow-organizations-service-bkp
+2025-03-18 15:39:47,421 - ERROR - Error running helm template in /home/thais/PycharmProjects/bees-microservices/charts/bees-grow-organizations-service-bkp: Command '['helm', 'template', '/home/thais/PycharmProjects/bees-microservices/charts/bees-grow-organizations-service-bkp']' returned non-zero exit status 1.
+2025-03-18 15:39:47,421 - INFO - Processing files: ['/charts/tlp-account-service/templates/deployment.yaml']
+2025-03-18 15:39:47,421 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/tlp-account-service/templates/deployment.yaml
+2025-03-18 15:39:47,421 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/tlp-account-service/templates/deployment.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 15:39:47,421 - INFO - Processing deployment: /home/thais/PycharmProjects/bees-microservices/charts/tlp-account-service/templates/deployment.yaml
+2025-03-18 15:39:47,421 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/tlp-account-service/templates/deployment.yaml
+2025-03-18 15:39:47,422 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/tlp-account-service/templates/deployment.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 15:39:47,422 - INFO - Successfully updated deployment file: /home/thais/PycharmProjects/bees-microservices/charts/tlp-account-service/templates/deployment.yaml
+2025-03-18 15:39:47,423 - INFO - Found 2 metadata sections and updated 2 labels sections
+2025-03-18 15:39:47,423 - INFO - Updating values file: /home/thais/PycharmProjects/bees-microservices/charts/tlp-account-service/values.yaml
+2025-03-18 15:39:47,438 - INFO - Successfully updated values file: /home/thais/PycharmProjects/bees-microservices/charts/tlp-account-service/values.yaml
+2025-03-18 15:39:47,438 - INFO - Running helm template for verification in /home/thais/PycharmProjects/bees-microservices/charts/tlp-account-service
+2025-03-18 15:39:47,602 - ERROR - Error running helm template in /home/thais/PycharmProjects/bees-microservices/charts/tlp-account-service: Command '['helm', 'template', '/home/thais/PycharmProjects/bees-microservices/charts/tlp-account-service']' returned non-zero exit status 1.
+2025-03-18 15:39:47,602 - INFO - Processing files: ['/charts/bees-hub-teams-management-mfe/templates/deployment.yaml']
+2025-03-18 15:39:47,603 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/bees-hub-teams-management-mfe/templates/deployment.yaml
+2025-03-18 15:39:47,603 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/bees-hub-teams-management-mfe/templates/deployment.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 15:39:47,603 - INFO - Processing deployment: /home/thais/PycharmProjects/bees-microservices/charts/bees-hub-teams-management-mfe/templates/deployment.yaml
+2025-03-18 15:39:47,603 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/bees-hub-teams-management-mfe/templates/deployment.yaml
+2025-03-18 15:39:47,603 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/bees-hub-teams-management-mfe/templates/deployment.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 15:39:47,604 - INFO - Successfully updated deployment file: /home/thais/PycharmProjects/bees-microservices/charts/bees-hub-teams-management-mfe/templates/deployment.yaml
+2025-03-18 15:39:47,604 - INFO - Found 3 metadata sections and updated 3 labels sections
+2025-03-18 15:39:47,604 - INFO - Updating values file: /home/thais/PycharmProjects/bees-microservices/charts/bees-hub-teams-management-mfe/values.yaml
+2025-03-18 15:39:47,608 - INFO - Successfully updated values file: /home/thais/PycharmProjects/bees-microservices/charts/bees-hub-teams-management-mfe/values.yaml
+2025-03-18 15:39:47,608 - INFO - Running helm template for verification in /home/thais/PycharmProjects/bees-microservices/charts/bees-hub-teams-management-mfe
+2025-03-18 15:39:47,767 - ERROR - Error running helm template in /home/thais/PycharmProjects/bees-microservices/charts/bees-hub-teams-management-mfe: Command '['helm', 'template', '/home/thais/PycharmProjects/bees-microservices/charts/bees-hub-teams-management-mfe']' returned non-zero exit status 1.
+2025-03-18 15:39:47,767 - INFO - Processing files: ['/charts/agent-call-service/templates/deployment.yaml']
+2025-03-18 15:39:47,767 - WARNING - File not found: /home/thais/PycharmProjects/bees-microservices/charts/agent-call-service/templates/deployment.yaml. Skipping to next file.
+2025-03-18 15:39:47,767 - INFO - Processing files: ['/charts/grow-team-structure-service/templates/deployment-api.yaml']
+2025-03-18 15:39:47,767 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/grow-team-structure-service/templates/deployment-api.yaml
+2025-03-18 15:39:47,768 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/grow-team-structure-service/templates/deployment-api.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 15:39:47,768 - INFO - Processing deployment: /home/thais/PycharmProjects/bees-microservices/charts/grow-team-structure-service/templates/deployment-api.yaml
+2025-03-18 15:39:47,768 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/grow-team-structure-service/templates/deployment-api.yaml
+2025-03-18 15:39:47,768 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/grow-team-structure-service/templates/deployment-api.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 15:39:47,769 - INFO - Successfully updated deployment file: /home/thais/PycharmProjects/bees-microservices/charts/grow-team-structure-service/templates/deployment-api.yaml
+2025-03-18 15:39:47,769 - INFO - Found 2 metadata sections and updated 2 labels sections
+2025-03-18 15:39:47,770 - INFO - Updating values file: /home/thais/PycharmProjects/bees-microservices/charts/grow-team-structure-service/values.yaml
+2025-03-18 15:39:47,788 - INFO - Successfully updated values file: /home/thais/PycharmProjects/bees-microservices/charts/grow-team-structure-service/values.yaml
+2025-03-18 15:39:47,788 - INFO - Running helm template for verification in /home/thais/PycharmProjects/bees-microservices/charts/grow-team-structure-service
+2025-03-18 15:39:47,953 - ERROR - Error running helm template in /home/thais/PycharmProjects/bees-microservices/charts/grow-team-structure-service: Command '['helm', 'template', '/home/thais/PycharmProjects/bees-microservices/charts/grow-team-structure-service']' returned non-zero exit status 1.
+2025-03-18 15:39:47,954 - INFO - Processing files: ['/charts/grow-portal-main-mfe/templates/deployment.yaml']
+2025-03-18 15:39:47,954 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/grow-portal-main-mfe/templates/deployment.yaml
+2025-03-18 15:39:47,954 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/grow-portal-main-mfe/templates/deployment.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 15:39:47,954 - INFO - Processing deployment: /home/thais/PycharmProjects/bees-microservices/charts/grow-portal-main-mfe/templates/deployment.yaml
+2025-03-18 15:39:47,954 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/grow-portal-main-mfe/templates/deployment.yaml
+2025-03-18 15:39:47,954 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/grow-portal-main-mfe/templates/deployment.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 15:39:47,955 - INFO - Successfully updated deployment file: /home/thais/PycharmProjects/bees-microservices/charts/grow-portal-main-mfe/templates/deployment.yaml
+2025-03-18 15:39:47,956 - INFO - Found 2 metadata sections and updated 2 labels sections
+2025-03-18 15:39:47,956 - INFO - Updating values file: /home/thais/PycharmProjects/bees-microservices/charts/grow-portal-main-mfe/values.yaml
+2025-03-18 15:39:47,960 - INFO - Successfully updated values file: /home/thais/PycharmProjects/bees-microservices/charts/grow-portal-main-mfe/values.yaml
+2025-03-18 15:39:47,960 - INFO - Running helm template for verification in /home/thais/PycharmProjects/bees-microservices/charts/grow-portal-main-mfe
+2025-03-18 15:39:48,121 - ERROR - Error running helm template in /home/thais/PycharmProjects/bees-microservices/charts/grow-portal-main-mfe: Command '['helm', 'template', '/home/thais/PycharmProjects/bees-microservices/charts/grow-portal-main-mfe']' returned non-zero exit status 1.
+2025-03-18 15:39:48,121 - INFO - Processing files: ['/charts/agents-kpi-service/templates/deployment.yaml']
+2025-03-18 15:39:48,121 - WARNING - File not found: /home/thais/PycharmProjects/bees-microservices/charts/agents-kpi-service/templates/deployment.yaml. Skipping to next file.
+2025-03-18 15:39:48,121 - INFO - Processing files: ['/charts/bees-grow-cti-service/templates/deployment-api.yaml']
+2025-03-18 15:39:48,121 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/bees-grow-cti-service/templates/deployment-api.yaml
+2025-03-18 15:39:48,122 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/bees-grow-cti-service/templates/deployment-api.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 15:39:48,122 - INFO - Processing deployment: /home/thais/PycharmProjects/bees-microservices/charts/bees-grow-cti-service/templates/deployment-api.yaml
+2025-03-18 15:39:48,122 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/bees-grow-cti-service/templates/deployment-api.yaml
+2025-03-18 15:39:48,122 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/bees-grow-cti-service/templates/deployment-api.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 15:39:48,123 - INFO - Successfully updated deployment file: /home/thais/PycharmProjects/bees-microservices/charts/bees-grow-cti-service/templates/deployment-api.yaml
+2025-03-18 15:39:48,123 - INFO - Found 2 metadata sections and updated 2 labels sections
+2025-03-18 15:39:48,124 - INFO - Updating values file: /home/thais/PycharmProjects/bees-microservices/charts/bees-grow-cti-service/values.yaml
+2025-03-18 15:39:48,137 - INFO - Successfully updated values file: /home/thais/PycharmProjects/bees-microservices/charts/bees-grow-cti-service/values.yaml
+2025-03-18 15:39:48,137 - INFO - Running helm template for verification in /home/thais/PycharmProjects/bees-microservices/charts/bees-grow-cti-service
+2025-03-18 15:39:48,315 - ERROR - Error running helm template in /home/thais/PycharmProjects/bees-microservices/charts/bees-grow-cti-service: Command '['helm', 'template', '/home/thais/PycharmProjects/bees-microservices/charts/bees-grow-cti-service']' returned non-zero exit status 1.
+2025-03-18 15:39:48,315 - INFO - Processing files: ['/charts/bees-grow-intelligence-relay/templates/deployment.yaml']
+2025-03-18 15:39:48,315 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/bees-grow-intelligence-relay/templates/deployment.yaml
+2025-03-18 15:39:48,316 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/bees-grow-intelligence-relay/templates/deployment.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 15:39:48,316 - INFO - Processing deployment: /home/thais/PycharmProjects/bees-microservices/charts/bees-grow-intelligence-relay/templates/deployment.yaml
+2025-03-18 15:39:48,316 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/bees-grow-intelligence-relay/templates/deployment.yaml
+2025-03-18 15:39:48,316 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/bees-grow-intelligence-relay/templates/deployment.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 15:39:48,317 - INFO - Successfully updated deployment file: /home/thais/PycharmProjects/bees-microservices/charts/bees-grow-intelligence-relay/templates/deployment.yaml
+2025-03-18 15:39:48,317 - INFO - Found 0 metadata sections and updated 0 labels sections
+2025-03-18 15:39:48,317 - INFO - Updating values file: /home/thais/PycharmProjects/bees-microservices/charts/bees-grow-intelligence-relay/values.yaml
+2025-03-18 15:39:48,341 - INFO - Successfully updated values file: /home/thais/PycharmProjects/bees-microservices/charts/bees-grow-intelligence-relay/values.yaml
+2025-03-18 15:39:48,341 - INFO - Running helm template for verification in /home/thais/PycharmProjects/bees-microservices/charts/bees-grow-intelligence-relay
+2025-03-18 15:39:48,503 - ERROR - Error running helm template in /home/thais/PycharmProjects/bees-microservices/charts/bees-grow-intelligence-relay: Command '['helm', 'template', '/home/thais/PycharmProjects/bees-microservices/charts/bees-grow-intelligence-relay']' returned non-zero exit status 1.
+2025-03-18 15:39:48,503 - INFO - Processing files: ['/charts/b2b-trainer-service/templates/deployment.yaml']
+2025-03-18 15:39:48,503 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/b2b-trainer-service/templates/deployment.yaml
+2025-03-18 15:39:48,504 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/b2b-trainer-service/templates/deployment.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 15:39:48,504 - INFO - Processing deployment: /home/thais/PycharmProjects/bees-microservices/charts/b2b-trainer-service/templates/deployment.yaml
+2025-03-18 15:39:48,504 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/b2b-trainer-service/templates/deployment.yaml
+2025-03-18 15:39:48,504 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/b2b-trainer-service/templates/deployment.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 15:39:48,506 - INFO - Successfully updated deployment file: /home/thais/PycharmProjects/bees-microservices/charts/b2b-trainer-service/templates/deployment.yaml
+2025-03-18 15:39:48,506 - INFO - Found 3 metadata sections and updated 3 labels sections
+2025-03-18 15:39:48,506 - INFO - Updating values file: /home/thais/PycharmProjects/bees-microservices/charts/b2b-trainer-service/values.yaml
+2025-03-18 15:39:48,525 - INFO - Successfully updated values file: /home/thais/PycharmProjects/bees-microservices/charts/b2b-trainer-service/values.yaml
+2025-03-18 15:39:48,525 - INFO - Running helm template for verification in /home/thais/PycharmProjects/bees-microservices/charts/b2b-trainer-service
+2025-03-18 15:39:48,689 - ERROR - Error running helm template in /home/thais/PycharmProjects/bees-microservices/charts/b2b-trainer-service: Command '['helm', 'template', '/home/thais/PycharmProjects/bees-microservices/charts/b2b-trainer-service']' returned non-zero exit status 1.
+2025-03-18 15:39:48,689 - INFO - Processing files: ['/charts/grow-missions-consumer/templates/deployment.yaml']
+2025-03-18 15:39:48,689 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/grow-missions-consumer/templates/deployment.yaml
+2025-03-18 15:39:48,689 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/grow-missions-consumer/templates/deployment.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 15:39:48,690 - INFO - Processing deployment: /home/thais/PycharmProjects/bees-microservices/charts/grow-missions-consumer/templates/deployment.yaml
+2025-03-18 15:39:48,690 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/grow-missions-consumer/templates/deployment.yaml
+2025-03-18 15:39:48,690 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/grow-missions-consumer/templates/deployment.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 15:39:48,691 - INFO - Successfully updated deployment file: /home/thais/PycharmProjects/bees-microservices/charts/grow-missions-consumer/templates/deployment.yaml
+2025-03-18 15:39:48,691 - INFO - Found 0 metadata sections and updated 0 labels sections
+2025-03-18 15:39:48,691 - INFO - Updating values file: /home/thais/PycharmProjects/bees-microservices/charts/grow-missions-consumer/values.yaml
+2025-03-18 15:39:48,736 - INFO - Successfully updated values file: /home/thais/PycharmProjects/bees-microservices/charts/grow-missions-consumer/values.yaml
+2025-03-18 15:39:48,736 - INFO - Running helm template for verification in /home/thais/PycharmProjects/bees-microservices/charts/grow-missions-consumer
+2025-03-18 15:39:48,901 - ERROR - Error running helm template in /home/thais/PycharmProjects/bees-microservices/charts/grow-missions-consumer: Command '['helm', 'template', '/home/thais/PycharmProjects/bees-microservices/charts/grow-missions-consumer']' returned non-zero exit status 1.
+2025-03-18 15:39:48,901 - INFO - Processing files: ['/charts/grow-missions-service/templates/deployment-api.yaml']
+2025-03-18 15:39:48,902 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/grow-missions-service/templates/deployment-api.yaml
+2025-03-18 15:39:48,902 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/grow-missions-service/templates/deployment-api.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 15:39:48,902 - INFO - Processing deployment: /home/thais/PycharmProjects/bees-microservices/charts/grow-missions-service/templates/deployment-api.yaml
+2025-03-18 15:39:48,902 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/grow-missions-service/templates/deployment-api.yaml
+2025-03-18 15:39:48,902 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/grow-missions-service/templates/deployment-api.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 15:39:48,903 - INFO - Successfully updated deployment file: /home/thais/PycharmProjects/bees-microservices/charts/grow-missions-service/templates/deployment-api.yaml
+2025-03-18 15:39:48,903 - INFO - Found 2 metadata sections and updated 2 labels sections
+2025-03-18 15:39:48,903 - INFO - Updating values file: /home/thais/PycharmProjects/bees-microservices/charts/grow-missions-service/values.yaml
+2025-03-18 15:39:48,927 - INFO - Successfully updated values file: /home/thais/PycharmProjects/bees-microservices/charts/grow-missions-service/values.yaml
+2025-03-18 15:39:48,927 - INFO - Running helm template for verification in /home/thais/PycharmProjects/bees-microservices/charts/grow-missions-service
+2025-03-18 15:39:49,080 - ERROR - Error running helm template in /home/thais/PycharmProjects/bees-microservices/charts/grow-missions-service: Command '['helm', 'template', '/home/thais/PycharmProjects/bees-microservices/charts/grow-missions-service']' returned non-zero exit status 1.
+2025-03-18 15:39:49,080 - INFO - Processing files: ['/charts/grow-flexible-missions-service/templates/deployment-api.yaml']
+2025-03-18 15:39:49,080 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/grow-flexible-missions-service/templates/deployment-api.yaml
+2025-03-18 15:39:49,080 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/grow-flexible-missions-service/templates/deployment-api.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 15:39:49,080 - INFO - Processing deployment: /home/thais/PycharmProjects/bees-microservices/charts/grow-flexible-missions-service/templates/deployment-api.yaml
+2025-03-18 15:39:49,080 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/grow-flexible-missions-service/templates/deployment-api.yaml
+2025-03-18 15:39:49,080 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/grow-flexible-missions-service/templates/deployment-api.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 15:39:49,081 - INFO - Successfully updated deployment file: /home/thais/PycharmProjects/bees-microservices/charts/grow-flexible-missions-service/templates/deployment-api.yaml
+2025-03-18 15:39:49,081 - INFO - Found 2 metadata sections and updated 2 labels sections
+2025-03-18 15:39:49,081 - INFO - Updating values file: /home/thais/PycharmProjects/bees-microservices/charts/grow-flexible-missions-service/values.yaml
+2025-03-18 15:39:49,099 - INFO - Successfully updated values file: /home/thais/PycharmProjects/bees-microservices/charts/grow-flexible-missions-service/values.yaml
+2025-03-18 15:39:49,099 - INFO - Running helm template for verification in /home/thais/PycharmProjects/bees-microservices/charts/grow-flexible-missions-service
+2025-03-18 15:39:49,271 - ERROR - Error running helm template in /home/thais/PycharmProjects/bees-microservices/charts/grow-flexible-missions-service: Command '['helm', 'template', '/home/thais/PycharmProjects/bees-microservices/charts/grow-flexible-missions-service']' returned non-zero exit status 1.
+2025-03-18 15:39:49,271 - INFO - Processing files: ['/charts/admin-portal-grow-missions-mfe/templates/deployment.yaml']
+2025-03-18 15:39:49,271 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/admin-portal-grow-missions-mfe/templates/deployment.yaml
+2025-03-18 15:39:49,272 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/admin-portal-grow-missions-mfe/templates/deployment.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 15:39:49,272 - INFO - Processing deployment: /home/thais/PycharmProjects/bees-microservices/charts/admin-portal-grow-missions-mfe/templates/deployment.yaml
+2025-03-18 15:39:49,272 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/admin-portal-grow-missions-mfe/templates/deployment.yaml
+2025-03-18 15:39:49,272 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/admin-portal-grow-missions-mfe/templates/deployment.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 15:39:49,273 - INFO - Successfully updated deployment file: /home/thais/PycharmProjects/bees-microservices/charts/admin-portal-grow-missions-mfe/templates/deployment.yaml
+2025-03-18 15:39:49,273 - INFO - Found 2 metadata sections and updated 2 labels sections
+2025-03-18 15:39:49,273 - INFO - Updating values file: /home/thais/PycharmProjects/bees-microservices/charts/admin-portal-grow-missions-mfe/values.yaml
+2025-03-18 15:39:49,276 - INFO - Successfully updated values file: /home/thais/PycharmProjects/bees-microservices/charts/admin-portal-grow-missions-mfe/values.yaml
+2025-03-18 15:39:49,276 - INFO - Running helm template for verification in /home/thais/PycharmProjects/bees-microservices/charts/admin-portal-grow-missions-mfe
+2025-03-18 15:39:49,446 - ERROR - Error running helm template in /home/thais/PycharmProjects/bees-microservices/charts/admin-portal-grow-missions-mfe: Command '['helm', 'template', '/home/thais/PycharmProjects/bees-microservices/charts/admin-portal-grow-missions-mfe']' returned non-zero exit status 1.
+2025-03-18 15:39:49,447 - INFO - Processing files: ['/charts/tlp-campaign-service/templates/deployment.yaml']
+2025-03-18 15:39:49,447 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/tlp-campaign-service/templates/deployment.yaml
+2025-03-18 15:39:49,448 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/tlp-campaign-service/templates/deployment.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 15:39:49,448 - INFO - Processing deployment: /home/thais/PycharmProjects/bees-microservices/charts/tlp-campaign-service/templates/deployment.yaml
+2025-03-18 15:39:49,448 - INFO - Verificando existência de blocos ownershipLabels em: /home/thais/PycharmProjects/bees-microservices/charts/tlp-campaign-service/templates/deployment.yaml
+2025-03-18 15:39:49,448 - INFO - Arquivo /home/thais/PycharmProjects/bees-microservices/charts/tlp-campaign-service/templates/deployment.yaml: Não contém blocos ownershipLabels. Total: 0
+2025-03-18 15:39:49,449 - INFO - Successfully updated deployment file: /home/thais/PycharmProjects/bees-microservices/charts/tlp-campaign-service/templates/deployment.yaml
+2025-03-18 15:39:49,449 - INFO - Found 2 metadata sections and updated 2 labels sections
+2025-03-18 15:39:49,449 - INFO - Updating values file: /home/thais/PycharmProjects/bees-microservices/charts/tlp-campaign-service/values.yaml
+2025-03-18 15:39:49,462 - INFO - Successfully updated values file: /home/thais/PycharmProjects/bees-microservices/charts/tlp-campaign-service/values.yaml
+2025-03-18 15:39:49,462 - INFO - Running helm template for verification in /home/thais/PycharmProjects/bees-microservices/charts/tlp-campaign-service
+2025-03-18 15:39:49,614 - ERROR - Error running helm template in /home/thais/PycharmProjects/bees-microservices/charts/tlp-campaign-service: Command '['helm', 'template', '/home/thais/PycharmProjects/bees-microservices/charts/tlp-campaign-service']' returned non-zero exit status 1.
+2025-03-18 15:39:49,614 - INFO - Label update process completed successfully
+2025-03-18 15:39:49,614 - INFO - Labels updated successfully for /home/thais/PycharmProjects/bees-microservices
+2025-03-18 15:39:49,614 - INFO - Files updated successfully!

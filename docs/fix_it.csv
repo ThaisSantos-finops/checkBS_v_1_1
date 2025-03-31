@@ -1,0 +1,23 @@
+Source,path,businessStructure,director,valueStream,teamName
+bees-microservices,/charts/agent-call-service-consumer/templates/deployment.yaml,Frontline,kurt.williams@bees.com,BEES Grow,Grow_Web
+bees-microservices,/charts/smart-call-queues-service/templates/deployment.yaml,Frontline,kurt.williams@bees.com,BEES Grow,Grow_Web
+bees-microservices,/charts/grow-admin-config-service/templates/deployment.yaml,Frontline,kurt.williams@bees.com,BEES Grow,Grow_Web
+bees-microservices,/charts/tlp-item-service/templates/deployment.yaml,Frontline,kurt.williams@bees.com,BEES Grow,Grow_Web
+bees-microservices,/charts/tlp-call-list-service/templates/deployment.yaml,Frontline,kurt.williams@bees.com,BEES Grow,Grow_Web
+bees-microservices,/charts/grow-digital-service/templates/deployment-api.yaml,Frontline,kurt.williams@bees.com,BEES Grow,Grow_Web
+bees-microservices,/charts/oncustomer-b2c-users/templates/deployment.yaml,Frontline,kurt.williams@bees.com,BEES Grow,Grow_Web
+bees-microservices,/charts/bees-grow-organizations-service-bkp/templates/deployment.yaml,Frontline,kurt.williams@bees.com,BEES Grow,Grow_Web
+bees-microservices,/charts/tlp-account-service/templates/deployment.yaml,Frontline,kurt.williams@bees.com,BEES Grow,Grow_Web
+bees-microservices,/charts/bees-hub-teams-management-mfe/templates/deployment.yaml,Frontline,kurt.williams@bees.com,BEES Grow,Grow_Web
+bees-microservices,/charts/agent-call-service/templates/deployment.yaml,Frontline,kurt.williams@bees.com,BEES Grow,Grow_Web
+bees-microservices,/charts/grow-team-structure-service/templates/deployment-api.yaml,Frontline,kurt.williams@bees.com,BEES Grow,Grow_Web
+bees-microservices,/charts/grow-portal-main-mfe/templates/deployment.yaml,Frontline,kurt.williams@bees.com,BEES Grow,Grow_Web
+bees-microservices,/charts/agents-kpi-service/templates/deployment.yaml,Frontline,kurt.williams@bees.com,BEES Grow,Grow_Web
+bees-microservices,/charts/bees-grow-cti-service/templates/deployment-api.yaml,Frontline,kurt.williams@bees.com,BEES Grow,Grow_Web
+bees-microservices,/charts/bees-grow-intelligence-relay/templates/deployment.yaml,Frontline,kurt.williams@bees.com,BEES Grow,Grow_Web
+bees-microservices,/charts/b2b-trainer-service/templates/deployment.yaml,Frontline,kurt.williams@bees.com,BEES Grow,Grow_Web
+bees-microservices,/charts/grow-missions-consumer/templates/deployment.yaml,Frontline,kurt.williams@bees.com,BEES Grow,Grow_Web
+bees-microservices,/charts/grow-missions-service/templates/deployment-api.yaml,Frontline,kurt.williams@bees.com,BEES Grow,Grow_Web
+bees-microservices,/charts/grow-flexible-missions-service/templates/deployment-api.yaml,Frontline,kurt.williams@bees.com,BEES Grow,Grow_Web
+bees-microservices,/charts/admin-portal-grow-missions-mfe/templates/deployment.yaml,Frontline,kurt.williams@bees.com,BEES Grow,Grow_Web
+bees-microservices,/charts/tlp-campaign-service/templates/deployment.yaml,Frontline,kurt.williams@bees.com,BEES Grow,Grow_Web

@@ -1,0 +1,11 @@
+# Configuration file for Ownership Labels Management
+# This file stores the paths used by the application
+
+# Repository path to be analyzed
+repo_path: /home/thais/PycharmProjects/bees-microservices
+# CSV file path for updates
+update_path: /home/thais/PycharmProjects/checkBS_v_1_1/docs/fix_it.csv
+# Path to save extraction results
+extract_path: /home/thais/PycharmProjects/checkBS_v_1_1/docs
+# Path for log files
+logs_path: /home/thais/PycharmProjects/checkBS_v_1_1/logs
